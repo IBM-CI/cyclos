@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6173" started-at="2018-07-08T09:16:40Z" finished-at="2018-07-08T09:16:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6173" started-at="2018-07-08T09:16:40Z" finished-at="2018-07-08T09:16:46Z">
+      <class name="com.messages.MessageCategory_Test">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.messages.MessageCategory_Test@29e495ff]" name="login" duration-ms="2638" started-at="2018-07-08T14:46:40Z" finished-at="2018-07-08T14:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="messageCategoryValidation()[pri:2, instance:com.messages.MessageCategory_Test@29e495ff]" name="messageCategoryValidation" duration-ms="909" started-at="2018-07-08T14:46:43Z" finished-at="2018-07-08T14:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageCategoryValidation -->
+        <test-method status="PASS" signature="deleteCategory()[pri:5, instance:com.messages.MessageCategory_Test@29e495ff]" name="deleteCategory" duration-ms="2596" started-at="2018-07-08T14:46:44Z" finished-at="2018-07-08T14:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCategory -->
+      </class> <!-- com.messages.MessageCategory_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
