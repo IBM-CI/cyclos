@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [messages]">
+  <test name="simple class(failed)">
+    <classes>
+      <class name="com.messages.Message_Testng">
+        <methods>
+          <include name="sr8"/>
+          <include name="sr10"/>
+          <include name="sr9"/>
+          <include name="sr1"/>
+          <include name="sr3"/>
+          <include name="sr5"/>
+        </methods>
+      </class> <!-- com.messages.Message_Testng -->
+    </classes>
+  </test> <!-- simple class(failed) -->
+</suite> <!-- Failed suite [messages] -->
