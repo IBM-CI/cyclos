@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Admin_Home/src/test/java"/>
+	<classpathentry kind="src" path="Admin_personal/src/test/java"/>
+	<classpathentry kind="src" path="Cyclonkavi/src/test/java"/>
+	<classpathentry kind="src" path="Login/src/test/java"/>
+	<classpathentry kind="src" path="MessageCode/src/test/java"/>
+	<classpathentry kind="src" path="setting_goutham/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
