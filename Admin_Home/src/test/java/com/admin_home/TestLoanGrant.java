@@ -1,4 +1,4 @@
-package Admin_home;
+package com.admin_home;
 
 import static org.testng.Assert.assertEquals;
 

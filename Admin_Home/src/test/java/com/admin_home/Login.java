@@ -1,4 +1,4 @@
-package Admin_home;
+package com.admin_home;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
