@@ -13,17 +13,40 @@ public class Messages {//To click messages link aside
 	public WebDriver driver;
 	Select options_category_type,options_inbox_type,member_category_send,grp_items,member_category_sendTo;
 
-	@Test(priority=1,alwaysRun=true) //To login
-	public void login() throws InterruptedException {
+	@Test(priority=2)
+	public void loginDetail()
+	{ 
 		driver=new FirefoxDriver();
-		driver.manage().window().maximize();
-		driver.get("http://localhost:8585/do/login");
-		//credentials
-		driver.findElement(By.name("principal")).sendKeys("admin");
-		driver.findElement(By.name("password")).sendKeys("1234");	  
-		driver.findElement(By.className("button")).click();
-	    Thread.sleep(1000);
+	    driver.get("http://localhost:8585/do/login");
+	    driver.manage().window().maximize();
+	    driver.findElement(By.id("cyclosUsername")).sendKeys("admin");
+		try{
+			
+             driver.findElement(By.xpath(".//*[@class='virtualKeyboardButton virtualKeyboardContrastNormal'][@value='1']")).click();
+             driver.findElement(By.xpath(".//*[@class='virtualKeyboardButton virtualKeyboardContrastNormal'][@value='2']")).click();
+             driver.findElement(By.xpath(".//*[@class='virtualKeyboardButton virtualKeyboardContrastNormal'][@value='3']")).click();
+             driver.findElement(By.xpath(".//*[@class='virtualKeyboardButton virtualKeyboardContrastNormal'][@value='4']")).click();
+             driver.findElement(By.xpath(".//*[@id='virtualKeyboard']/div[2]/table/tbody/tr[2]/td/input[3]")).click();
+		
+		}
+		catch (Exception e) {
+			//System.out.println(e.toString());
+		}
+		try{
+		driver.findElement(By.xpath(".//*[@id='cyclosPassword']")).sendKeys("1234");
+		driver.findElement(By.xpath(".//*[@id='cyclosLogin']/table/tbody/tr[3]/td/input")).click();
+		}
+		catch (Exception e) {
+			//System.out.println(e.toString());
+		}
+		
+		
 	}
+	
+	
+		
+	
+	
 
 	@Test(priority=2,alwaysRun=true)
 	public void msg_start(){ //Entering into message module
