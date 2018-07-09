@@ -30,7 +30,6 @@ public class Settingsaccess1 extends SettingsAlert1 {
 		System.out.println(d.findElement(By.name("setting(virtualKeyboard)")).isEnabled());
 
 
-
 		System.out.println(d.findElement(By.name("setting(virtualKeyboardTransactionPassword)")).isEnabled()); 
 
 		System.out.println(d.findElement(By.name("setting(numericPassword)")).isEnabled()); 

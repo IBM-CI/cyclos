@@ -475,7 +475,6 @@ public class LocalSettings1 {
 Thread.sleep(1000);
 	}
 
-
 	@BeforeTest
 	public void beforeTest() {
 

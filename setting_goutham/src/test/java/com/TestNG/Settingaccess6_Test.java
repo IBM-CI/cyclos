@@ -18,7 +18,6 @@ public class Settingaccess6_Test extends Settingaccess3 {
 	d.findElement(By.id("submenu9.1")).click();
 	d.findElement(By.id("modifyButton")).click();
 	
-	
 			d.findElement(By.name("setting(amountIncorrectLogin)")).click();
 			d.findElement(By.name("setting(amountIncorrectLogin)")).clear();
 			d.findElement(By.name("setting(amountIncorrectLogin)")).sendKeys("3");

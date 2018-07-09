@@ -14,7 +14,6 @@ import org.openqa.selenium.support.ui.Select;
 public class Access4 extends Settingaccess2 {
 	
 	
-	
   @Test(alwaysRun=true, priority=17)
   public void func() throws InterruptedException {
 	  

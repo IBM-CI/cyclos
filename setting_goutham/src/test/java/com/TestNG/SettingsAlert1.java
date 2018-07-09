@@ -29,7 +29,6 @@ public class SettingsAlert1 extends LocalSettings1 {
 		String m2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[1]/td[1]")).getText();
 		assertEquals(m1,m2);
 
-		
 		//updated values verification
 
 				d.findElement(By.name("setting(givenVeryBadRefs)")).clear(); 

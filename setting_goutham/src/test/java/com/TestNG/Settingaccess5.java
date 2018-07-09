@@ -10,7 +10,6 @@ public class Settingaccess5 extends Access4 {
 	@Test(alwaysRun=true, priority=18)
 	public void session2() {
 
-
 		d.findElement(By.id("cyclosUsername")).sendKeys("saanvi");
 
 		d.findElement(By.xpath("//*[@class='virtualKeyboardButton virtualKeyboardContrastNormal' and @value='1']")).click();

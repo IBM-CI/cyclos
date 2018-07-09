@@ -15,7 +15,6 @@ public class Settingaccess2 extends Settingsaccess1 {
 	{  
 
 
-
 		//logout-admin(after session expires)
 
 
