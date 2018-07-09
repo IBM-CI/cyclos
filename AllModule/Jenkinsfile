@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-  git 'https://github.com/IBM-CI/cyclos'
+  git 'https://github.com/IBM-CI/cyclos.git'
   }
   stage ('Compile-package'){
   def mvnHome = tool name: 'maven', type: 'maven'
