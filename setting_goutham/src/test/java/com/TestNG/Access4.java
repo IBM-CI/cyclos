@@ -1,4 +1,4 @@
-package com.testNG;
+package com.TestNG;
 
 import org.testng.annotations.Test;
 
@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class Testaccess4 extends Settingaccess2 {
+public class Access4 extends Settingaccess2 {
 	
 	
 	

@@ -1,4 +1,4 @@
-package com.testNG;
+package com.TestNG;
 
 //import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.BeforeTest;
@@ -19,7 +19,7 @@ public class SettingsAlert1 extends LocalSettings1 {
 	int i,j,x,k;
 //WebDriver d;
 	@Test(alwaysRun=true,priority=11)
-	public void f21() throws InterruptedException   {
+	public void enableacess() throws InterruptedException   {
 
 		d.findElement(By.id("submenu9.1")).click();
 		d.findElement(By.id("modifyButton")).click();

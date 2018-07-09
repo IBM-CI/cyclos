@@ -1,4 +1,4 @@
-package com.testNG;
+package com.TestNG;
 
 
 import org.testng.annotations.Test;
@@ -21,10 +21,8 @@ public class LocalSettings1 {
 
 	@Test(priority=1)
 
-	public void f() throws InterruptedException {
-
+	public void localsettings() throws InterruptedException {
 		d.findElement(By.id("menu9")).click();
-
 		//local settings
 
 		d.findElement(By.id("submenu9.0")).click();
@@ -86,7 +84,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=2)
 
-	public void f1() throws InterruptedException{
+	public void language() throws InterruptedException{
 
 		String verifylag="Language";
 		String verifylag2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[1]/td[1]")).getText();
@@ -122,7 +120,7 @@ public class LocalSettings1 {
 
 	@Test(alwaysRun=true,priority=3)
 
-	public void f2(){
+	public void numberforamt(){
 
 		String verifynumber="Number format";
 		String verifynumber2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[2]/td[1]")).getText();
@@ -156,7 +154,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=4)
 
-	public void f3(){
+	public void numberprecision(){
 
 		String verifyprecision="Number precision";
 		String verifypre2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[3]/td[1]")).getText();
@@ -194,7 +192,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=5)
 
-	public void f8() {
+	public void highprecision() {
 
 
 		String verifyhighpre="High precision";
@@ -233,7 +231,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=6)
 
-	public void f4(){
+	public void decimal(){
 		String verifydec="Decimal numbers input method";
 		String verifydec2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[5]/td[1]")).getText();
 		assertEquals(verifydec2,verifydec);
@@ -266,7 +264,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=7)
 
-	public void f5() throws InterruptedException{
+	public void timezone() throws InterruptedException{
 		String tmzone="Time zone";
 		String tmzone2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[6]/td[1]")).getText();
 		assertEquals(tmzone2,tmzone);
@@ -297,7 +295,7 @@ public class LocalSettings1 {
 	//date format display
 	@Test( alwaysRun=true,priority=8)
 
-	public void f6(){
+	public void dateFormat(){
 
 		String datezone="Date format";
 		String datezone2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[7]/td[1]")).getText();
@@ -333,7 +331,7 @@ public class LocalSettings1 {
 
 	@Test( alwaysRun=true,priority=9)
 
-	public void f7() throws InterruptedException{
+	public void timeFormat() throws InterruptedException{
 		String timeformat="Time format";
 		String timeformat2=d.findElement(By.xpath(".//*[@id='tdContents']/form/table/tbody/tr[2]/td/fieldset[2]/table/tbody/tr[8]/td[1]")).getText();
 		assertEquals(timeformat2,timeformat);
@@ -364,7 +362,7 @@ public class LocalSettings1 {
 	}
 	
 	@Test( alwaysRun=true,priority=10)
-		public void f9() throws InterruptedException {
+		public void languageSetting() throws InterruptedException {
 
 			d.findElement(By.name("setting(language)")).click();
 			WebElement language=d.findElement(By.name("setting(language)"));

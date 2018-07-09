@@ -1,8 +1,8 @@
-package com.testNG;
+package com.forvirtualkeyboard;
 
 import org.testng.annotations.Test;
 
-import com.testNG.Settingaccess5;
+import com.TestNG.Settingaccess5;
 
 import static org.testng.Assert.assertEquals;
 

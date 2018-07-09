@@ -1,10 +1,10 @@
-package com.testNG;
+package com.TestNG;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 
-public class Settingaccess5 extends Testaccess4 {
+public class Settingaccess5 extends Access4 {
 
 
 	@Test(alwaysRun=true, priority=18)
