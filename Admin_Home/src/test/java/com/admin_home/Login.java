@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 	public WebDriver driver;
-	
+	//login 
 	@Test(priority=2)
 	public void loginDetail()
 	{
